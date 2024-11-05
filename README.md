@@ -14,11 +14,11 @@ Additionally, you’ll need to install the Llama2 package separately from the of
 The project is organised as follows:
 
 * `data/`contains the necessary dataset files;
-* `pretrain.py`script for pre-training the model;
-* `test.py`script for model evaluation and testing;
+* `pretrain.py`for pre-training the model;
+* `test.py`for model evaluation and testing;
 * `model.py`defines the pre-training model architecture and core logic;
-* `model_g_coop.py`model specifically designed for prompt tuning;
-* `generate_llama2_embedding.py`Script to generate node feature embeddings using a pre-trained Llama2 model.
+* `model_g_coop.py`is model specifically designed for prompt tuning;
+* `generate_llama2_embedding.py`to generate node feature embeddings using a pre-trained Llama2 model.
 
 ## Basic Usage
 
